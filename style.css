@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+}
+
+/* content */
+
+#content {
+    position: relative;
+    top: 30vh;
+}
+
+#banner {
+    display: block;
+    margin: auto;
+    height: 100px;
+    width: 300px;
+    position: relative;
+    background: url("images/googlelogo.png") no-repeat center;
+}
+
+#regio {
+    margin: 0;
+    font-family:roboto-regular, arial, sans-serif;
+    font-size: 16px;
+    color: #4285F4;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#searchform {
+    display: block;
+    margin: auto;
+    padding: 20px;
+    width: 600px;
+    position: relative;
+}
+
+#searchbar {
+    display: block;
+    margin: auto;
+    width: 500px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid lightgrey;
+}
+
+#searchbar:hover, #searchbar:focus {
+    outline: none;
+    box-shadow: 0px 0px 3px lightgrey;
+}
+
+.button {
+    width: 120px;
+    padding: 10px;
+    border: 1px solid #F3F3F3;
+    border-radius: 2px;
+    background-color: #F3F3F3;
+    box-sizing: border-box; 
+    color: #757575;
+    font-family: arial, sans-serif;
+    font-weight: bold;
+}
+
+.button:hover {
+    border: 1px solid #CCCCCC;
+    border-radius: 2px;
+    box-shadow: 0px 0px 1px #CCCCCC;
+}
+
+#button1 {
+    position: absolute;
+    left: 195px;
+}
+
+#button2 {
+    position: absolute; 
+    right: 195px;
+}
+
+/* navbar */
+#navbar {
+    display: block;
+    float: right;
+    padding-top: 15px;
+}
+
+#navbar, #footer {
+    font-family: arial, sans-serif;
+    font-size: 12px;
+    color: #757575;
+}
+
+#navbar ul, #footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar li, #footer li {
+    display: inline;
+}
+
+#navbar li a, #footer li a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #757575;
+}
+
+#navbar li a:hover, #footer li a:hover {
+    text-decoration: underline;
+}
+
+#navbar li a i {
+    vertical-align: middle;
+}
+
+/* footer */
+#footer {
+    border: 1px solid #e6e6e6;
+    background-color: #F3F3F3;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#footer ul {
+    display: block;
+    padding: 10px 20px;
+}
+
+#footer1 {
+    float: left;
+}
+
+#footer2 {
+    float: right;
+}
